@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE struts-config PUBLIC
+       "-//Apache Software Foundation//DTD Struts Configuration 1.3//EN"
+       "http://struts.apache.org/dtds/struts-config_1_3.dtd">
+
+<struts-config>
+<form-beans>
+	<form-bean name="signupForm" type="ma.ac.ensa.web.forms.SignupForm">
+	</form-bean>
+	<form-bean name="loginForm" type="ma.ac.ensa.web.forms.LoginForm"/>
+</form-beans>
+<action-mappings>
+<action path="/inscription" name="signupForm"
+ 		type="ma.ac.ensa.web.actions.SignupAction"
+ 		input="index.jsp"
+ 		validate="true">
+ 		<forward name="success" path="/success.jsp"></forward>
+ 		<forward name="failure" path="/about.html"></forward>
+ </action>
+ <action path="/login" name="loginForm"
+ 		 type="ma.ac.ensa.web.actions.LoginAction"
+ 		 input="/login.jsp"
+ 		 validate="true">
+ 		 <forward name="success" path="/success.jsp"></forward>
+ 		 <forward name="failure" path="/failure.jsp"></forward>
+ 
+ </action>
+</action-mappings>
+</struts-config>
