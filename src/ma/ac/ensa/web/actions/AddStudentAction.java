@@ -31,7 +31,8 @@ public class AddStudentAction extends Action{
 		AddStudentForm asform = (AddStudentForm) form;
 		Etudiant e = new Etudiant();
 		EtudiantDao edao = new EtudiantDao();
-		
+		e.setEmail(asform.getEmail());
+		e.setPassword(asform.getPassword());
 		e.setNom(asform.getNom());
 		e.setPrenom(asform.getPrenom());
 		e.setAdress(asform.getAdress());

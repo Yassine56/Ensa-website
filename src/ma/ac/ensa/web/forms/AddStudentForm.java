@@ -26,6 +26,25 @@ public class AddStudentForm extends ActionForm{
 	private String adress;
 	private String telephone;
 	private String CIN;
+	private String Email;
+	public String getEmail() {
+		return Email;
+	}
+	public void setEmail(String email) {
+		Email = email;
+	}
+	public String getPassword() {
+		return password;
+	}
+	public void setPassword(String password) {
+		this.password = password;
+	}
+
+
+
+
+
+	private String password;
 	
 	public String getNom() {
 		return nom;
