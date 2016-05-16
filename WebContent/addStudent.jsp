@@ -26,6 +26,14 @@
 			<div class="col-md-6"><h:text property="prenom"/></div>
 		</div>
 		<div class="row">
+			<div class="col-md-6"><h2>Email</h2></div>
+			<div class="col-md-6"><h:text property="email"/></div>
+		</div>
+		<div class="row">
+			<div class="col-md-6"><h2>Password</h2></div>
+			<div class="col-md-6"><h:text property="password"/></div>
+		</div>
+		<div class="row">
 			<div class="col-md-6"><h2>CIN</h2></div>
 			<div class="col-md-6"><h:text property="CIN"/></div>
 		</div>
