@@ -2,6 +2,7 @@ package ma.ac.ensa.web.actions;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.HttpSession;
 
 import org.apache.struts.action.Action;
 import org.apache.struts.action.ActionForm;
@@ -25,6 +26,8 @@ public ActionForward execute(ActionMapping mapping, ActionForm form, HttpServlet
 	Professeur prof=new Professeur();
 	try{
 	prof=profdao.findByEmail(Email, password);
+	HttpSession s= request.getSession();
+	s.setAttribute("user", prof);
 	fwd=mapping.findForward("success");
 	}
 	catch (Exception e){

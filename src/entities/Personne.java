@@ -18,6 +18,7 @@ public abstract class Personne implements Serializable {
 	@Id
 	@GeneratedValue
 	private long id;
+	private long idSchool;
 	private String email;
 	private String password;
 	private String Nom;
@@ -29,6 +30,12 @@ public abstract class Personne implements Serializable {
 	private String telephone;
 	private String CIN;
 	
+	public long getIdSchool() {
+		return idSchool;
+	}
+	public void setIdSchool(long idSchool) {
+		this.idSchool = idSchool;
+	}
 	public String getPassword() {
 		return password;
 	}

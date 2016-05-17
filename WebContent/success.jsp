@@ -9,14 +9,16 @@
 <title>Welcome :: login success</title>
 </head>
 <body>
-Succeeeeeeeesss
+<a href="Afficher.school?CIN=<b:write name="user" property="CIN"/>">
+<b:write name="user" property="CIN"/>
+</a>
 <h3> Bonjour '<b:write name="loginForm" property="email"/>' </h3>
 <hr/>
 <ul>
 <h4><a href="profil">afficher mon profile</a></h4>
 <h4><a href="emploisTemps">Mon emplois de temps</a></h4>
 <h4><a href="mailBox">Boite de reception</a></h4>
-<h4><a href="classes">Mes classes</a></h4>
+<h4><a href="MesNiveaux.school?id=<b:write name="user" property="CIN"/>">Mes niveaux</a></h4>
 <h4><a href="addStudent.jsp">Ajouter étudiant</a></h4>
 </ul>
 </body>
