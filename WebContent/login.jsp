@@ -1,6 +1,7 @@
 <%@ taglib uri="http://struts.apache.org/tags-html" prefix="h"%>
 <h:html>
 <head>
+<!-- Hello -->
         <meta charset="utf-8">
         <title>ENSA Marrakech, Université Cady Ayad</title>
         <meta name="description" content="">
