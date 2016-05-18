@@ -18,7 +18,7 @@
 <h4><a href="profil">afficher mon profile</a></h4>
 <h4><a href="emploisTemps">Mon emplois de temps</a></h4>
 <h4><a href="mailBox">Boite de reception</a></h4>
-<h4><a href="MesNiveaux.school">Mes niveaux</a></h4>
+<h4><a href="showClasses.school">Mes niveaux</a></h4>
 <h4><a href="addStudent.jsp">Ajouter étudiant</a></h4>
 </ul>
 </body>
