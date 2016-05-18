@@ -1,6 +1,6 @@
 package ma.ac.ensa.web.actions;
 
-import java.util.List;
+import java.util.*;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
@@ -27,11 +27,13 @@ public class MesNiveaux extends Action{
 		Professeur prof=(Professeur) s.getAttribute("user");
 		System.out.println(prof.getIdSchool());
 		
-		try{
-		Module listlvl = mdao.findByProf(prof.getIdSchool());
 		
-		request.setAttribute("listlvl", listlvl);
-		fwd=mapping.findForward("success");
+		
+		
+		try{
+			List<Module> listlvl = mdao.findByProf(prof.getIdSchool());
+			request.setAttribute("listlvl", listlvl);
+			fwd=mapping.findForward("success");
 		}
 		catch(Exception e){
 			fwd=mapping.findForward("failure");

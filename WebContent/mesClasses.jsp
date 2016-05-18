@@ -11,13 +11,14 @@
 
 	<table>
         
-        <logic:present name="listlvl">
+        <logic:present name="bobo">
             <logic:iterate name="listlvl" id="listvl">
                 <tr>
                     <td>
-                        <a href="MesNiveaux.school?id=<bean:write name="listlvl" property="nom"/>">
-                            <bean:write name="listlvl" property="nom"/>
-                        </a> 
+                        <a href="MesNiveaux.school?id=<b:write name="listlvl" property="nom"/>">
+                            <b:write name="listlvl" property="nom"/>
+                        </a>
+                        
                     </td>
                 </tr>
             </logic:iterate>

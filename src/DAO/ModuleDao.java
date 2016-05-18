@@ -17,13 +17,13 @@ public class ModuleDao extends DAO<Module,Long>{
 		em.getTransaction().commit();
 		return e;
 	}
-	public Module findByProf(Long id)
+	public List<Module> findByProf(Long id)
 	{
 		em.getTransaction().begin();
 		Query q=em.createQuery("SELECT e FROM Module e WHERE e.id_profCharger_de_TD='"+id+"'");
 		
 		em.getTransaction().commit();
-		return(Module)q.getResultList();
+		return(List<Module>)q.getResultList();
 		
 		
 		

@@ -5,7 +5,7 @@ import java.util.List;
 
 import javax.persistence.*;
 @Entity
-@Inheritance( strategy = InheritanceType.SINGLE_TABLE )
+@Inheritance( strategy = InheritanceType.TABLE_PER_CLASS )
 public class Module implements Serializable {
 	
 	@Id
