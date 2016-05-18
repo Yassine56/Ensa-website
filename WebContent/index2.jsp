@@ -3,7 +3,7 @@
 <html class="no-js">
     <head>
         <meta charset="utf-8">
-        <title>ENSA Marrakech, Université Cady Ayad</title>
+        <title>ENSA Marrakech, Universite Cady Ayad</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <!-- Fonts -->
