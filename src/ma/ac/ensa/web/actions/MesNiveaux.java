@@ -32,8 +32,9 @@ public class MesNiveaux extends Action{
 		
 		try{
 			List<Module> listlvl = mdao.findByProf(prof.getIdSchool());
-			request.setAttribute("listlvl", listlvl);
+			request.setAttribute("list", listlvl);
 			fwd=mapping.findForward("success");
+			
 		}
 		catch(Exception e){
 			fwd=mapping.findForward("failure");
