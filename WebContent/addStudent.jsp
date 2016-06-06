@@ -56,7 +56,7 @@
 		</div>
 		<div class="row">
 			<div class="col-md-6"><h2>Date de naissance</h2></div>
-			<div class="col-md-6"><bean:text property="dateNaissance"/></div>
+			<div class="col-md-6"><b:text property="dateNaissance"/></div>
 		</div>
 		<div class="row">
 			<div class="col-md-6"> <h:submit value="Ajouter" styleClass="btn btn-success"/></div>
