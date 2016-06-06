@@ -10,13 +10,10 @@
 <title>Mes claaaaaaaaaases</title>
 </head>
 <body>
-	<logic:iterate name="listlvl" id="cls">
-	     <p>
-	        nom de module : 
-	        <b:write name="cls" property="nom"/>
-	        
-	     </p>
-	</logic:iterate>
+	
+	
+
+	
 
 </body>
 </html>

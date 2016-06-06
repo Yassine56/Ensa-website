@@ -9,29 +9,6 @@
 /* =============================================================================
   Base
 ========================================================================== */
-.message{
-    padding:30px;
-    margin: 30px;
-}
-#lologo{
-  height: 100px;
-  width: 100px;
-}
-#lologo img{
-
-  max-width:120%; 
-  
-  margin:auto;
-  display:block;
-}
-img #error{
-    max-width:100%;
-
-    margin:0;
-    border:0;
-    display:block;
-}
-
 body {
   font-family: "Open sans", sans-serif;
   color: #115c9b;
@@ -51,21 +28,6 @@ a:hover, a:focus, a:active {
   color: inherit;
 }
 
-
-
-.left-menu{
-background-color: #eee;
-padding: 30px ;
-margin: 10px;
-min-height: 600px;
-}
-
-.content-field{
-  background-color:#888;
-  padding: 30px ;
-  margin: 10px;
-  min-height: 600px;
-}
 /* =============================================================================
   Layout
 ========================================================================== */
