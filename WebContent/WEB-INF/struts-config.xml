@@ -45,8 +45,9 @@
 		<forward name="failure" path="/failure.jsp"></forward>
  </action>
  
- <action path="/MesNiveaux"
- 			type="ma.ac.ensa.web.actions.MesNiveaux">
+ <action path="/showClasses"
+ 			type="ma.ac.ensa.web.actions.NiveauxAction">
+
  			<forward name="success" path="/mesClasses.jsp"></forward>
  			<forward name="failure" path="/failure.jsp"></forward>
  			

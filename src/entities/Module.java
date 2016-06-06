@@ -23,6 +23,8 @@ public class Module implements Serializable {
 	private String specialiter;
 	private String departement_attache;
 	private int semestre_apartenance;
+	
+
 	public long getId() {
 		return id;
 	}

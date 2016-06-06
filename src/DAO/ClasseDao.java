@@ -1,11 +1,14 @@
 package DAO;
 
+import java.util.List;
+
 import javax.persistence.*;
 import javax.persistence.EntityManagerFactory;
 import javax.persistence.Persistence;
 
 import entities.Classe;
 import entities.Etudiant;
+import entities.Niveau;
 
 public class ClasseDao extends DAO<Classe,Long>{
 public boolean creerClass(Classe e){
@@ -29,5 +32,12 @@ public Classe find(Long u) {
 	Classe e=em.find(Classe.class, u);
 	em.getTransaction().commit();
 	return null;
+}
+public List<Classe> findByNiveau(Niveau n){
+	em.getTransaction().begin();
+	Query q=em.createQuery("SELECT c FROM Classe c WHERE c.niveau='"+n+"'");
+	em.getTransaction().commit();
+	return (List<Classe>) q.getResultList();
+	
 }
 }

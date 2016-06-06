@@ -25,8 +25,7 @@ public class ModuleDao extends DAO<Module,Long>{
 		em.getTransaction().commit();
 		return(List<Module>)q.getResultList();
 		
-		
-		
 	}
+	
 
 }

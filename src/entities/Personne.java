@@ -16,7 +16,7 @@ import javax.persistence.*;
 @Entity
 public abstract class Personne implements Serializable {
 	@Id
-	@GeneratedValue
+	
 	private long id;
 	private long idSchool;
 	private String email;
@@ -29,6 +29,8 @@ public abstract class Personne implements Serializable {
 	private String adress;
 	private String telephone;
 	private String CIN;
+	@Embedded
+	private BoiteEmail boite;
 	
 	public long getIdSchool() {
 		return idSchool;
