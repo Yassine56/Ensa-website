@@ -1,12 +1,12 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-    pageEncoding="ISO-8859-1"%>
+    pageEncoding="UTF-8"%>
 <%@ taglib uri="http://struts.apache.org/tags-html" prefix="h"%>
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html class="no-js">
     <head>
         <meta charset="utf-8">
-        <title>SADAKA | Charity / Non-profit responsive Bootstrap HTML5 template</title>
+        <title>ENSA | MARRAKECH / Non-profit responsive Bootstrap HTML5 template</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <!-- Fonts -->
@@ -86,7 +86,7 @@
 
                   </button>
                   
-                  <a class="navbar-brand" href="index.html"><img src="assets/images/sadaka-logo.png" alt=""></a>
+                  <a class="navbar-brand" href="index.jsp"><img src="assets/images/rsz_ensalogo.jpg" alt=""></a>
                   
                 </div>
 
@@ -94,20 +94,11 @@
 
                   <ul class="nav navbar-nav">
 
-                    <li><a class="is-active" href="index.html">HOME</a></li>
-                    <li><a href="about.html">ABOUT</a></li>
-                    <li class="has-child"><a href="#">CAUSES</a>
-
-                      <ul class="submenu">
-                         <li class="submenu-item"><a href="causes.html">Causes list </a></li>
-                         <li class="submenu-item"><a href="causes-single.html">Single cause </a></li>
-                         <li class="submenu-item"><a href="causes-single.html">Single cause </a></li>
-                         <li class="submenu-item"><a href="causes-single.html">Single cause </a></li>
-                      </ul>
-
-                    </li>
-                    <li><a href="gallery.html">GALLERY</a></li>
-                    <li><a href="contact.html">CONTACT</a></li>
+                    <li><a class="is-active" href="index.jsp">HOME</a></li>
+                    <li><a href="about.jsp">ABOUT</a></li>
+                    
+                    <li><a href="gallery.jsp">GALLERY</a></li>
+                    <li><a href="contact.jsp">CONTACT</a></li>
 
                   </ul>
 
@@ -225,10 +216,10 @@
                         <div class="col-icon-wrapper">
                           <img src="assets/images/icons/our-mission-icon.png" alt="">
                         </div>
-                        <h3 class="col-title">our mission</h3>
+                        <h3 class="col-title">Notre mission</h3>
                         <div class="col-details">
 
-                          <p>Lorem ipsum dolor sit amet consect adipisscin elit proin vel lectus ut eta esami vera dolor sit amet consect</p>
+                          <p>Faire de nos jeunes les futurs cadre de demain</p>
                           
                         </div>
                         <a href="#" class="btn btn-primary"> Read more </a>
@@ -245,13 +236,13 @@
                         <div class="col-icon-wrapper">
                           <img src="assets/images/icons/make-donation-icon.png" alt="">
                         </div>
-                        <h3 class="col-title">Make donations</h3>
+                        <h3 class="col-title">Bourse</h3>
                         <div class="col-details">
 
-                          <p>Lorem ipsum dolor sit amet consect adipisscin elit proin vel lectus ut eta esami vera dolor sit amet consect</p>
+                          <p>Une bourse d'excelence et de mérite sont à la disposition de tout le monde, sous certains critères de séléctions.</p>
                           
                         </div>
-                        <a href="#" class="btn btn-primary"> Read more </a>
+                        <a href="#" class="btn btn-primary"> READ MORE </a>
                     
                   </div>
                   
@@ -265,10 +256,10 @@
                         <div class="col-icon-wrapper">
                           <img src="assets/images/icons/help-icon.png" alt="">
                         </div>
-                        <h3 class="col-title">Help & support</h3>
+                        <h3 class="col-title">AIDE & SUPPORT</h3>
                         <div class="col-details">
 
-                          <p>Lorem ipsum dolor sit amet consect adipisscin elit proin vel lectus ut eta esami vera dolor sit amet consect</p>
+                          <p>Pour toutes questions concernant les modalitées d'inscription, cette page vous est dédié </p>
                           
                         </div>
                         <a href="#" class="btn btn-primary"> Read more </a>
@@ -285,10 +276,10 @@
                         <div class="col-icon-wrapper">
                           <img src="assets/images/icons/programs-icon.png" alt="">
                         </div>
-                        <h3 class="col-title">our programs</h3>
+                        <h3 class="col-title">NOS PROGRAMMES</h3>
                         <div class="col-details">
 
-                          <p>Lorem ipsum dolor sit amet consect adipisscin elit proin vel lectus ut eta esami vera dolor sit amet consect</p>
+                          <p>Si vous cherchez a découvrir les differents programme offert par notre etablissement, cet article est destiné pour vous.</p>
                           
                         </div>
                         <a href="#" class="btn btn-primary"> Read more </a>
@@ -315,24 +306,26 @@
 
                     <div class="reasons-col animate-onscroll fadeIn">
 
-                        <img src="assets/images/reasons/we-fight-togother.jpg" alt="">
+                        
+                        <img src="assets/images/reasons/rsz_ensaprot.jpg" alt="">
 
                         <div class="reasons-titles">
 
-                            <h3 class="reasons-title">We fight together</h3>
-                            <h5 class="reason-subtitle">We are humans</h5>
+                            <h3 class="reasons-title">plus qu'une écoles</h3>
+                            <h5 class="reason-subtitle">UNE FAMILLE</h5>
                             
                         </div>
 
                         <div class="on-hover hidden-xs">
                             
-                                <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur praesentium, itaque facilis nesciunt ab omnis cumque similique ipsa veritatis perspiciatis, harum ad at nihil molestias, dignissimos sint consequuntur. Officia, fuga.</p>
+                                <p> Dans le cadre du développement des relations culturelles qui relient le Maroc et le Japon, l’école nationale des sciences appliquées de Marrakech organise la cinquième édition de La journée du Japon. </p>
 
 
-                                <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur praesentium, itaque facilis nesciunt ab omnis cumque similique ipsa veritatis perspiciatis, harum ad at nihil molestias, dignissimos sint consequuntur. Officia, fuga.</p>
-
-                                <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur praesentium, itaque facilis nesciunt ab omnis cumque similique ipsa veritatis perspiciatis, harum ad at nihil molestias, dignissimos sint consequuntur. Officia, fuga.</p>
+                                <p>En collaboration avec L’Agence Japonaise de Coopération Internationale (JICA) au Maroc, Manga-Afternoon et Otaku Shop , cet évènement se tiendra le 27 février 2016 au sein de l’école, dans le but d’attirer l’attention des jeunes marocains envers la culture japonaise, et de créer un environnement de partage pour les Otakus marocains ainsi que pour les volontaires Japonais.</p>
                                 
+                                <p>Une opportunité en or, des activités aussi fantastiques qu’uniques, des invités d’honneur de calibre. L’événement culte de l’année avec la participation de partenaires plus engagés que jamais.
+
+								Soyez nombreux à y assister pour découvrir de nouveaux aspects de la richesse de la culture japonaise. </p>                                
                         </div>
                     </div>
                     
@@ -343,23 +336,21 @@
 
                     <div class="reasons-col animate-onscroll fadeIn">
 
-                        <img src="assets/images/reasons/we-care-about.jpg" alt="">
+                        <img src="assets/images/reasons/rsz_ensaprot6.jpg" alt="">
 
                         <div class="reasons-titles">
 
-                            <h3 class="reasons-title">WE care about others</h3>
-                            <h5 class="reason-subtitle">We are humans</h5>
+                            <h3 class="reasons-title">PLUS QU'UNE FAMILLE</h3>
+                            <h5 class="reason-subtitle">UNE ENTREPRISE</h5>
                             
                         </div>
 
                         <div class="on-hover hidden-xs">
                             
-                                <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur praesentium, itaque facilis nesciunt ab omnis cumque similique ipsa veritatis perspiciatis, harum ad at nihil molestias, dignissimos sint consequuntur. Officia, fuga.</p>
+                                <p> Le club GRT de l’ENSA de Marrakech en collaboration avec et l'Agence Japonaise de Coopération Internationale (JICA), organise une journée d’études, sous le thème « LA GESTION DU CYCLE DE PROJET (PCM)”, une méthode Japonaise pour aider à la planification, la gestion et l'évaluation des projets d'aide au développement. Cette Journée d’étude aura lieu le 16, 22 et 23 Avril 2016 à l'ENSA de Marrakech pour les étudiants de la filière GRT et de l'Université Cadi Ayyad. </p>
 
-
-                                <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur praesentium, itaque facilis nesciunt ab omnis cumque similique ipsa veritatis perspiciatis, harum ad at nihil molestias, dignissimos sint consequuntur. Officia, fuga.</p>
-
-                                <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur praesentium, itaque facilis nesciunt ab omnis cumque similique ipsa veritatis perspiciatis, harum ad at nihil molestias, dignissimos sint consequuntur. Officia, fuga.</p>
+                                <p> Cette journée a pour but de donner une sorte de formation aux participants sur la manière de gérer les projets ICT en utilisant la méthodologie PCM. Celle-ci vise donc toute personne voulant améliorer son savoir sur le cycle de projet d’une manière approfondi, permettant ainsi de pouvoir traiter d’une façon proactive et dynamique tout type de projet de recherche ou de coopération également. Pour ce faire, cette journée comportera des séminaires et des ateliers réalisés par le Professeur Aleman SHIRAISHI. </p>
+                                
                                 
                         </div>
 
@@ -382,7 +373,7 @@
 
         <div class="container">
 
-            <h2 class="title-style-1">Our Causes <span class="title-under"></span></h2>
+            <h2 class="title-style-1">NOS FILIERES <span class="title-under"></span></h2>
 
             <div class="row">
 
@@ -390,22 +381,24 @@
 
                     <div class="cause">
 
-                        <img src="assets/images/causes/cause-hunger.jpg" alt="" class="cause-img">
+                        <img src="assets/images/causes/rsz_genieinfo.jpg" alt="" class="cause-img">
 
                         <div class="progress cause-progress">
-                          <div class="progress-bar" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100" style="width: 30%;">
-                            10$ / 500$
+                          <div class="progress-bar" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100" style="width: 25%;">
+                            10% / 25%
                           </div>
                         </div>
 
-                        <h4 class="cause-title"><a href="#">HUNGER AND POVERTY </a></h4>
+                        <h4 class="cause-title"><a href="#">GENIE INFORMATIQUE</a></h4>
                         <div class="cause-details">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut at eros rutrum turpis viverra elementum semper quis ex. Donec lorem nulla, aliquam quis neque vel, maximus lacinia urna.
+                             L’objectif de la formation au sein de la filière Génie Informatique est de former des ingénieurs généralistes en informatique capable de :
+
+    s’intégrer dans n’importe quelle entreprise qui offre des services et qui développe des activités liées au domaine de l’informatique pris au sens large du terme.
                         </div>
 
                         <div class="btn-holder text-center">
 
-                          <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#donateModal"> DONATE NOW</a>
+                          <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#donateModal"> CONNEXION</a>
                           
                         </div>
 
@@ -419,22 +412,22 @@
 
                     <div class="cause">
 
-                        <img src="assets/images/causes/cause-education.jpg" alt="" class="cause-img">
+                        <img src="assets/images/causes/rsz_genielectrique.jpg" alt="" class="cause-img" style="height:200px;">
 
                         <div class="progress cause-progress">
-                          <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
-                            400$ / 700$
+                          <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 50%;">
+                            25% / 50%
                           </div>
                         </div>
 
-                        <h4 class="cause-title"><a href="#">EDUCATION AND TRAINING</a></h4>
+                        <h4 class="cause-title"><a href="#">GENIE ELECTRIQUE</a></h4>
                         <div class="cause-details">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut at eros rutrum turpis viverra elementum semper quis ex. Donec lorem nulla, aliquam quis neque vel, maximus lacinia urna.
+                            La formation dans la filière Génie Electrique est ouverte de manière à permettre à ses ingénieurs d’exercer leurs compétences dans des domaines d’activité très divers.  on recherchent des candidats à fort potentiel, capables d’être opérationnels de s’adapter facilement à des situation variées.
                         </div>
 
                         <div class="btn-holder text-center">
 
-                          <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#donateModal"> DONATE NOW</a>
+                          <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#donateModal"> CONNEXION</a>
                           
                         </div>
 
@@ -449,22 +442,22 @@
 
                     <div class="cause">
 
-                        <img src="assets/images/causes/cause-rights.jpg" alt="" class="cause-img">
+                        <img src="assets/images/causes/rsz_genieindustriel.jpg" alt="" class="cause-img">
 
                         <div class="progress cause-progress">
-                          <div class="progress-bar" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%;">
-                            400$ / 1000$
+                          <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%;">
+                            50% / 75%
                           </div>
                         </div>
 
-                        <h4 class="cause-title"><a href="#">HUMAN RIGHTS</a></h4>
+                        <h4 class="cause-title"><a href="#">GENIE INDUSTRIEL</a></h4>
                         <div class="cause-details">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut at eros rutrum turpis viverra elementum semper quis ex. Donec lorem nulla, aliquam quis neque vel, maximus lacinia urna.
+                            Le programme de la filière Génie Industriel et Logistique vise à offrir des connaissances et un savoir faire dans le domaine de la Conception, Installation et Exploitation des systèmes de production et de distribution des biens et des services. Profil dit "Génie Industriel et Logistique".
                         </div>
 
                         <div class="btn-holder text-center">
 
-                          <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#donateModal"> DONATE NOW</a>
+                          <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#donateModal"> CONNEXION</a>
                           
                         </div>
 
@@ -478,22 +471,22 @@
 
                     <div class="cause">
 
-                        <img src="assets/images/causes/cause-culture.jpg" alt="" class="cause-img">
+                        <img src="assets/images/causes/rsz_grt.jpg" alt="" class="cause-img">
 
                         <div class="progress cause-progress">
-                          <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
-                            400$ / 700$
+                          <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%;">
+                            75% / 100%
                           </div>
                         </div>
 
-                        <h4 class="cause-title"><a href="#">ARTS AND CULTURE </a></h4>
+                        <h4 class="cause-title"><a href="#">GENIE RESEAU TELECOM </a></h4>
                         <div class="cause-details">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut at eros rutrum turpis viverra elementum semper quis ex. Donec lorem nulla, aliquam quis neque vel, maximus lacinia urna.
+                            La formation au sein de la filière Génie Réseaux et Télécoms a pour vocation de maîtriser les réseaux de Télécommunications et résolution des problèmes liés. Le programme de formation oriente vers la maîtrise et le déploiement, l'administration et la sécurité des réseaux de Télécommunications.
                         </div>
 
                         <div class="btn-holder text-center">
 
-                          <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#donateModal"> DONATE NOW</a>
+                          <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#donateModal"> CONNEXION</a>
                           
                         </div>
 
@@ -518,7 +511,7 @@
     
         <div class="container">
 
-            <h2 class="title-style-1">Our Sponsors <span class="title-under"></span></h2>
+            <h2 class="title-style-1">Nos Sponsors <span class="title-under"></span></h2>
 
             <ul class="owl-carousel list-unstyled list-sponsors">
 
@@ -564,11 +557,13 @@
                             <div class="footer-content">
 
                                 <p>
-                                    <strong>Sadaka</strong> ipsum dolor sit amet, consectetur adipiscing elit. Ut at eros rutrum turpis viverra elementum semper quis ex. Donec lorem nulla, aliquam quis neque vel, maximus lacinia urna.
+                                    <strong>ENSA</strong>  et une école d'ingénieurs publique. Elle forme des ingénieurs d'état dans les domaines du Génie Electrique, Inforamtique, Industriel et Logisique et Réseaux et Télécoms.
+L'ENSA délivre un diplôme d'ingénieur d'état certifiant un cursus de 5 ans.
+L'ENSA propose également des Masters en formation continue. 
                                 </p> 
 
                                 <p>
-                                    ILorem ipsum dolor sit amet, consectetur adipiscing elit. Ut at eros rutrum turpis viverra elementum semper quis ex. Donec lorem nulla, aliquam quis neque vel, maximus lacinia urna.
+                                   notre mission est de Former des ingénieurs d'état hautement qualifiés capables d'assumer des responsabilités et pousser à l'avant les entreprises d'accueil.
                                 </p>
 
                             </div>
@@ -587,19 +582,19 @@
                                 <ul class="tweets list-unstyled">
                                     <li class="tweet"> 
 
-                                        20 Surprise Eggs, Kinder Surprise Cars 2 Thomas Spongebob Disney Pixar  http://t.co/fTSazikPd4 
+                                        Bravo ENSA de marrakech vous êtes le meilleurs
 
                                     </li>
 
                                     <li class="tweet"> 
 
-                                        20 Surprise Eggs, Kinder Surprise Cars 2 Thomas Spongebob Disney Pixar  http://t.co/fTSazikPd4 
+                                        Bravo Yassine je t'encourage gros bisoux
 
                                     </li>
 
                                     <li class="tweet"> 
 
-                                        20 Surprise Eggs, Kinder Surprise Cars 2 Thomas Spongebob Disney Pixar  http://t.co/fTSazikPd4 
+                                        Nizar on ne te vois jamais à l'école
 
                                     </li>
 
@@ -678,7 +673,7 @@
         <div class="footer-bottom">
 
             <div class="container text-right">
-                Sadaka @ copyrights 2015 - by <a href="http://www.ouarmedia.com" target="_blank">Ouarmedia</a>
+                ENSA|MARRAKECH @ copyrights 2016 - by <a href="https://www.facebook.com/neo.thunder.1" target="_blank">Nizar</a> & <a href="https://www.facebook.com/yassine.abouelouafa.1"> Yassine</a>
             </div>
         </div>
         

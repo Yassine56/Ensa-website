@@ -1,8 +1,13 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="UTF-8"%>
+<%@ taglib uri="http://struts.apache.org/tags-html" prefix="h"%>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <!DOCTYPE html>
 <html class="no-js">
     <head>
         <meta charset="utf-8">
-        <title>About | Charity / Non-profit responsive Bootstrap HTML5 template</title>
+        <title>About | ENSA MARRAKECH / Non-profit responsive Bootstrap HTML5 template</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -41,8 +46,8 @@
                     <div class="col-sm-6 col-xs-12">
 
                         <ul class="list-unstyled list-inline header-contact">
-                            <li> <i class="fa fa-phone"></i> <a href="tel:">+212 658 986 213 </a> </li>
-                             <li> <i class="fa fa-envelope"></i> <a href="mailto:contact@sadaka.org">contact@sadaka.org</a> </li>
+                            <li> <i class="fa fa-phone"></i> <a href="tel:">+212 123 345 678 </a> </li>
+                             <li> <i class="fa fa-envelope"></i> <a href="mailto:contact@sadaka.org">Ensa@uca.edu.ma</a> </li>
                        </ul> <!-- /.header-contact  -->
                       
                     </div>
@@ -80,7 +85,7 @@
 
                   </button>
                   
-                  <a class="navbar-brand" href="index.html"><img src="assets/images/sadaka-logo.png" alt=""></a>
+                  <a class="navbar-brand" href="index.jsp"><img src="assets/images/rsz_ensalogo.jpg" alt=""></a>
                   
                 </div>
 
@@ -88,20 +93,11 @@
 
                   <ul class="nav navbar-nav">
 
-                    <li><a href="index.html">HOME</a></li>
-                    <li><a class="is-active"  href="about.html">ABOUT</a></li>
-                    <li class="has-child"><a href="#">CAUSES</a>
-
-                      <ul class="submenu">
-                         <li class="submenu-item"><a href="causes.html">Causes list </a></li>
-                         <li class="submenu-item"><a href="causes-single.html">Single cause </a></li>
-                         <li class="submenu-item"><a href="causes-single.html">Single cause </a></li>
-                         <li class="submenu-item"><a href="causes-single.html">Single cause </a></li>
-                      </ul>
-
-                    </li>
-                    <li><a href="gallery.html">GALLERY</a></li>
-                    <li><a href="contact.html">CONTACT</a></li>
+                    <li><a href="index.jsp">HOME</a></li>
+                    <li><a class="is-active"  href="about.jsp">ABOUT</a></li>
+                   
+                    <li><a href="gallery.jsp">GALLERY</a></li>
+                    <li><a href="contact.jsp">CONTACT</a></li>
 
                   </ul>
 
@@ -123,7 +119,7 @@
 			
 			<h1 class="page-title">ABOUT US <span class="title-under"></span></h1>
 			<p class="page-description">
-				Lorem ipsum dolor sit amet, consectetur adipisicing elit Necessitatibus.
+				
 			</p>
 			
 		</div>
@@ -138,34 +134,26 @@
 
 				<div class="col-md-6">
 
-					<img src="assets/images/about-us.jpg" alt="" class="img-responsive">
+					<img src="assets/images/rsz_ensaprot5.jpg" alt="" class="img-responsive">
 
 				</div>
 
 				<div class="col-md-6">
 
-					<h2 class="title-style-2">ABOUT SADAKA <span class="title-under"></span></h2>
+					<h2 class="title-style-2">ABOUT ENSA MARRAKECH <span class="title-under"></span></h2>
 
 					<p>
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus, nulla quae possimus id fugit totam perspiciatis ad consequatur natus dolores unde ipsa, architecto, dignissimos corrupti explicabo provident debitis suscipit, beatae!
+						L‘ENSA de Marrakech est une école d'enseignement supérieur publique appartenant à l’université Cadi Ayyad. 
 					</p>
 
 					<p>
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi pariatur, voluptatum molestiae voluptas ducimus tempora numquam eligendi quos, quia aut quidem et, odio deleniti amet natus accusamus fugit! Temporibus, tenetur.
+						Elle est un acteur public qui exerce le rôle de leadership dans les filières éducatives d’ingénierie à haute valeur ajoutée, assurant une formation de qualité et de développement de compétences, construit sur un engagement partagé entre les élèves ingénieur, les professeurs et le corps administratif et technique. 
 					</p>
 
 					<p>
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse voluptatem, ea, quisquam vero ullam nesciunt recusandae expedita similique nisi! Ducimus, reiciendis, quia. Explicabo minima error excepturi minus, aperiam illum fugit.
+						Depuis sa création en 2000, L’ENSA de Marrakech a formé des ingénieurs d'état de qualité. Ils occupent aujourd’hui des postes clés dans des entreprises au Maroc et à l’étranger, notamment dans les secteurs des services et de l’industrie. Notre mission consiste à former les cadres ingénieurs de demain, à travers une pédagogie active, basée sur l’ouverture professionnelle, internationale et culturelle. Notre objectif est de développer l'esprit d'entreprise, en transformant l’élève en acteur principal de son épanouissement professionnel et culturel. Notre devise se résume à innover pour réussir. L’ENSA a toujours démontré sa capacité à innover, à implanter des pédagogies fondées sur le développement des compétences répondant aux exigences du marché de l’emploi à savoir des diplômés opérationnels, réactifs, autonomes et créatifs.
 					</p>
 
-					<p>
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi pariatur, voluptatum molestiae voluptas ducimus tempora numquam eligendi quos, quia aut quidem et, odio deleniti amet natus accusamus fugit! Temporibus, tenetur.
-					</p>
-
-					<p>
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse voluptatem, ea, quisquam vero ullam nesciunt recusandae expedita similique nisi! Ducimus, reiciendis, quia. Explicabo minima error excepturi minus, aperiam illum fugit , quia. Explicabo minima error excepturi minus, aperiam illum fugit.
-
-					</p>
 					
 				</div>
 
@@ -176,84 +164,84 @@
 
 			            <div class="row">
 
-			                <div class="col-md-3 col-sm-6">
-			                
-			                  <div class="about-us-col">
+			               <div class="col-md-3 col-sm-6">
+                
+                  <div class="about-us-col">
 
-			                        <div class="col-icon-wrapper">
-			                          <img src="assets/images/icons/our-mission-icon.png" alt="">
-			                        </div>
-			                        <h3 class="col-title">our mission</h3>
-			                        <div class="col-details">
+                        <div class="col-icon-wrapper">
+                          <img src="assets/images/icons/our-mission-icon.png" alt="">
+                        </div>
+                        <h3 class="col-title">Notre mission</h3>
+                        <div class="col-details">
 
-			                          <p>Lorem ipsum dolor sit amet consect adipisscin elit proin vel lectus ut eta esami vera dolor sit amet consect</p>
-			                          
-			                        </div>
-			                        <a href="#" class="btn btn-primary"> Read more </a>
-			                    
-			                  </div>
-			                  
-			                </div>
-
-
-			                <div class="col-md-3 col-sm-6">
-			                
-			                  <div class="about-us-col">
-
-			                        <div class="col-icon-wrapper">
-			                          <img src="assets/images/icons/make-donation-icon.png" alt="">
-			                        </div>
-			                        <h3 class="col-title">Make donations</h3>
-			                        <div class="col-details">
-
-			                          <p>Lorem ipsum dolor sit amet consect adipisscin elit proin vel lectus ut eta esami vera dolor sit amet consect</p>
-			                          
-			                        </div>
-			                        <a href="#" class="btn btn-primary"> Read more </a>
-			                    
-			                  </div>
-			                  
-			                </div>
+                          <p>Faire de nos jeunes les futurs cadre de demain</p>
+                          
+                        </div>
+                        <a href="#" class="btn btn-primary"> Read more </a>
+                    
+                  </div>
+                  
+                </div>
 
 
-			                <div class="col-md-3 col-sm-6">
-			                
-			                  <div class="about-us-col">
+                <div class="col-md-3 col-sm-6">
+                
+                  <div class="about-us-col">
 
-			                        <div class="col-icon-wrapper">
-			                          <img src="assets/images/icons/help-icon.png" alt="">
-			                        </div>
-			                        <h3 class="col-title">Help & support</h3>
-			                        <div class="col-details">
+                        <div class="col-icon-wrapper">
+                          <img src="assets/images/icons/make-donation-icon.png" alt="">
+                        </div>
+                        <h3 class="col-title">Bourse</h3>
+                        <div class="col-details">
 
-			                          <p>Lorem ipsum dolor sit amet consect adipisscin elit proin vel lectus ut eta esami vera dolor sit amet consect</p>
-			                          
-			                        </div>
-			                        <a href="#" class="btn btn-primary"> Read more </a>
-			                    
-			                  </div>
-			                  
-			                </div>
+                          <p>Une bourse d'excelence et de mérite sont à la disposition de tout le monde, sous certains critères de séléctions.</p>
+                          
+                        </div>
+                        <a href="#" class="btn btn-primary"> READ MORE </a>
+                    
+                  </div>
+                  
+                </div>
 
 
-			                <div class="col-md-3 col-sm-6">
-			                
-			                  <div class="about-us-col">
+                <div class="col-md-3 col-sm-6">
+                
+                  <div class="about-us-col">
 
-			                        <div class="col-icon-wrapper">
-			                          <img src="assets/images/icons/programs-icon.png" alt="">
-			                        </div>
-			                        <h3 class="col-title">our programs</h3>
-			                        <div class="col-details">
+                        <div class="col-icon-wrapper">
+                          <img src="assets/images/icons/help-icon.png" alt="">
+                        </div>
+                        <h3 class="col-title">AIDE & SUPPORT</h3>
+                        <div class="col-details">
 
-			                          <p>Lorem ipsum dolor sit amet consect adipisscin elit proin vel lectus ut eta esami vera dolor sit amet consect</p>
-			                          
-			                        </div>
-			                        <a href="#" class="btn btn-primary"> Read more </a>
-			                    
-			                  </div>
-			                  
-			                </div>
+                          <p>Pour toutes questions concernant les modalitées d'inscription, cette page vous est dédié </p>
+                          
+                        </div>
+                        <a href="#" class="btn btn-primary"> Read more </a>
+                    
+                  </div>
+                  
+                </div>
+
+
+                <div class="col-md-3 col-sm-6">
+                
+                  <div class="about-us-col">
+
+                        <div class="col-icon-wrapper">
+                          <img src="assets/images/icons/programs-icon.png" alt="">
+                        </div>
+                        <h3 class="col-title">NOS PROGRAMMES</h3>
+                        <div class="col-details">
+
+                          <p>Si vous cherchez a découvrir les differents programme offert par notre etablissement, cet article est destiné pour vous.</p>
+                          
+                        </div>
+                        <a href="#" class="btn btn-primary"> Read more </a>
+                    
+                  </div>
+                  
+                </div>
 			                
 
 			                
@@ -269,23 +257,23 @@
 
 	        <div class="container">
 
-	            <h2 class="title-style-1">Our Team <span class="title-under"></span></h2>
+	            <h2 class="title-style-1"> NOTRE EQUIPE <span class="title-under"></span></h2>
 
 	            <div class="row">
 
-	                <div class="col-md-3 col-sm-6">
+	                <div class="col-md-6 col-sm-6">
 
 	                    <div class="team-member">
 
 	                        <div class="thumnail">
 
-	                            <img src="assets/images/team/member-1.jpg" alt="" class="cause-img">
+	                            <img src="assets/images/team/yassine.jpg" alt="" class="cause-img" style="height:704.6px";}>
 	                            
 	                        </div>
 
 
 
-	                        <h4 class="member-name"><a href="#">Robert C. Numbers</a></h4>
+	                        <h4 class="member-name"><a href="#">Yassine Abouelouafa</a></h4>
 
 	                        <div class="member-position">
 	                            CO-FOUNDER
@@ -307,19 +295,19 @@
 	                    
 	                </div>
 
-	                <div class="col-md-3 col-sm-6">
+	                <div class="col-md-6 col-sm-6">
 
 	                    <div class="team-member">
 
 	                        <div class="thumnail">
 
-	                            <img src="assets/images/team/member-3.jpg" alt="" class="cause-img">
+	                            <img src="assets/images/team/nizar.jpg" alt="" class="cause-img">
 	                            
 	                        </div>
 
 
 
-	                        <h4 class="member-name"><a href="#">Marjorie R. Echevarria</a></h4>
+	                        <h4 class="member-name"><a href="#">Daoulat Nizar</a></h4>
 
 	                        <div class="member-position">
 	                            CO-FOUNDER
@@ -341,69 +329,6 @@
 	                    
 	                </div>
 
-
-	                <div class="col-md-3 col-sm-6">
-
-	                    <div class="team-member">
-
-	                        <div class="thumnail">
-
-	                            <img src="assets/images/team/member-4.jpg" alt="" class="cause-img">
-	                            
-	                        </div>
-
-
-
-	                        <h4 class="member-name"><a href="#">Allison J. Falls</a></h4>
-
-	                        <div class="member-position">
-	                            CO-FOUNDER
-	                        </div>
-
-	                        <div class="btn-holder">
-
-	                          <a href="#" class="btn"> <i class="fa fa-envelope"></i> </a>
-	                          <a href="#" class="btn"> <i class="fa fa-facebook"></i> </a>
-	                          <a href="#" class="btn"> <i class="fa fa-google"></i> </a>
-	                          <a href="#" class="btn"> <i class="fa fa-twitter"></i> </a>
-	                          <a href="#" class="btn"> <i class="fa fa-linkedin"></i> </a>
-	                          
-	                        </div>
-
-	                        
-
-	                    </div> <!-- /.team-member -->
-	                    
-	                </div>
-
-
-	                <div class="col-md-3 col-sm-6">
-
-	                    <div class="team-member">
-
-	                        <div class="thumnail">
-
-	                            <img src="assets/images/team/member-2.jpg" alt="" class="cause-img">
-	                            
-	                        </div>
-
-
-
-	                        <h4 class="member-name"><a href="#">Bryan B. Stevens</a></h4>
-
-	                        <div class="member-position">
-	                            CO-FOUNDER
-	                        </div>
-
-	                        <div class="btn-holder">
-
-	                          <a href="#" class="btn"> <i class="fa fa-envelope"></i> </a>
-	                          <a href="#" class="btn"> <i class="fa fa-facebook"></i> </a>
-	                          <a href="#" class="btn"> <i class="fa fa-google"></i> </a>
-	                          <a href="#" class="btn"> <i class="fa fa-twitter"></i> </a>
-	                          <a href="#" class="btn"> <i class="fa fa-linkedin"></i> </a>
-	                          
-	                        </div>
 
 	                        
 
@@ -440,12 +365,15 @@
                             <h4 class="footer-title">About us <span class="title-under"></span></h4>
 
                             <div class="footer-content">
+
                                 <p>
-                                    <strong>Sadaka</strong> ipsum dolor sit amet, consectetur adipiscing elit. Ut at eros rutrum turpis viverra elementum semper quis ex. Donec lorem nulla, aliquam quis neque vel, maximus lacinia urna.
+                                    <strong>ENSA</strong>  et une école d'ingénieurs publique. Elle forme des ingénieurs d'état dans les domaines du Génie Electrique, Inforamtique, Industriel et Logisique et Réseaux et Télécoms.
+L'ENSA délivre un diplôme d'ingénieur d'état certifiant un cursus de 5 ans.
+L'ENSA propose également des Masters en formation continue. 
                                 </p> 
 
                                 <p>
-                                    ILorem ipsum dolor sit amet, consectetur adipiscing elit. Ut at eros rutrum turpis viverra elementum semper quis ex. Donec lorem nulla, aliquam quis neque vel, maximus lacinia urna.
+                                   notre mission est de Former des ingénieurs d'état hautement qualifiés capables d'assumer des responsabilités et pousser à l'avant les entreprises d'accueil.
                                 </p>
 
                             </div>
@@ -464,19 +392,18 @@
                                 <ul class="tweets list-unstyled">
                                     <li class="tweet"> 
 
-                                        20 Surprise Eggs, Kinder Surprise Cars 2 Thomas Spongebob Disney Pixar  http://t.co/fTSazikPd4 
+                                         Bravo ENSA de marrakech vous êtes le meilleurs
+                                    </li>
+
+                                    <li class="tweet"> 
+
+                                        Bravo Yassine je t'encourage gros bisoux
 
                                     </li>
 
                                     <li class="tweet"> 
 
-                                        20 Surprise Eggs, Kinder Surprise Cars 2 Thomas Spongebob Disney Pixar  http://t.co/fTSazikPd4 
-
-                                    </li>
-
-                                    <li class="tweet"> 
-
-                                        20 Surprise Eggs, Kinder Surprise Cars 2 Thomas Spongebob Disney Pixar  http://t.co/fTSazikPd4 
+                                        Nizar on ne te vois jamais à l'école
 
                                     </li>
 
@@ -496,7 +423,9 @@
 
                             <div class="footer-content">
 
-                                <div class="footer-form" >
+                                <div class="footer-form">
+                                    
+                                    <div class="footer-form" >
                                     
                                     <form action="php/mail.php" class="ajax-form">
 
@@ -531,6 +460,8 @@
                                     </form>
 
                                 </div>
+
+                                </div>
                             </div>
                             
                         </div>
@@ -551,11 +482,11 @@
         <div class="footer-bottom">
 
             <div class="container text-right">
-                Sadaka @ copyrights 2015 - by <a href="http://www.ouarmedia.com" target="_blank">Ouarmedia</a>
+                ENSA|MARRAKECH @ copyrights 2016 - by <a href="https://www.facebook.com/neo.thunder.1" target="_blank">Nizar</a> & <a href="https://www.facebook.com/yassine.abouelouafa.1"> Yassine</a>
             </div>
         </div>
         
-    </footer>
+    </footer> <!-- main-footer -->
 
 
 

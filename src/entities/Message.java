@@ -22,6 +22,18 @@ public class Message implements Serializable{
 	private boolean lu;
 	private boolean important;
 	private boolean emis;
+	public long getId() {
+		return id;
+	}
+	public void setId(long id) {
+		this.id = id;
+	}
+	public boolean isEmis() {
+		return emis;
+	}
+	public void setEmis(boolean emis) {
+		this.emis = emis;
+	}
 	public Date getDateReception() {
 		return dateReception;
 	}

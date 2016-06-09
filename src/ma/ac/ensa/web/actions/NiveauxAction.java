@@ -50,16 +50,16 @@ public class NiveauxAction extends Action{
 			for(int i=0;i<listmod.size();i++){
 				try{
 					NiveauDisp niv=new NiveauDisp();
-					niv.setNiveau(ndao.findByModule(listmod.get(i)));
+					niv.setNiveau(listmod.get(i).getNiveau());
+					System.out.println(niv.getNiveau().getNom());
 					List<Classe> lClass=new ArrayList<Classe>();
-					try{
-						lClass.addAll(cdao.findByNiveau(niv.getNiveau()));
+					
+						lClass=niv.getListClasse();
+						System.out.println("test1");
+						//String toto= lClass.get(0).getNom();
+						//System.out.println(toto);
 						niv.setListClasse(lClass);
-					}
-					catch(Exception e){
-						System.out.println("niveau sans classe");
-						continue;
-					}
+						
 					nivdisp.add(niv);
 				}
 				catch(Exception e){
@@ -71,6 +71,7 @@ public class NiveauxAction extends Action{
 			snivdisp.addAll(nivdisp);
 			nivdisp.clear();
 			nivdisp.addAll(snivdisp);
+			
 			
 			
 			List<Filiere> lfiliere= new ArrayList<Filiere>();

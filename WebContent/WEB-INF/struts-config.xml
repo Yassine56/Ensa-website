@@ -10,6 +10,7 @@
 	</form-bean>
 	<form-bean name="loginForm" type="ma.ac.ensa.web.forms.LoginForm"/>
 	<form-bean name="AddStudentForm" type="ma.ac.ensa.web.forms.AddStudentForm">
+	<form-bean name="AddModuleForm" type="ma.ac.ensa.web.forms.AddModuleForm"/>
 	</form-bean>
 </form-beans>
 
@@ -45,12 +46,26 @@
 		<forward name="failure" path="/failure.jsp"></forward>
  </action>
  
+ <action path="/addModule" name="AddModuleForm"
+		type="ma.ac.ensa.web.actions.AddModuleAction"
+		input="/addModule"
+		validate="true">
+		<forward name="success" path="/addmodule.jsp"></forward>
+		<forward name="failure" path="/failure.jsp"></forward>
+ </action>
+ 
  <action path="/showClasses"
  			type="ma.ac.ensa.web.actions.NiveauxAction">
 
  			<forward name="success" path="/mesClasses.jsp"></forward>
  			<forward name="failure" path="/failure.jsp"></forward>
- 			
+ 
+ </action>
+ <action path="/mailBox"
+ 			type="ma.ac.ensa.web.actions.MailBoxAction">
+
+ 			<forward name="success" path="/boitemail.jsp"></forward>
+ 			<forward name="failure" path="/failure.jsp"></forward>
  
  </action>
  

@@ -31,7 +31,7 @@
 <title>Welcome :: login success</title>
 </head>
 <body>
-<header class="main-header">
+    <header class="main-header">
         
     
         <nav class="navbar navbar-static-top">
@@ -44,8 +44,8 @@
                     <div class="col-sm-6 col-xs-12">
 
                         <ul class="list-unstyled list-inline header-contact">
-                            <li> <i class="fa fa-phone"></i> <a href="tel:">+212 123 345 678 </a> </li>
-                             <li> <i class="fa fa-envelope"></i> <a href="mailto:Ensa@uca.edu.ma">Ensa@uca.edu.ma</a> </li>
+                            <li> <i class="fa fa-phone"></i> <a href="tel:">+212 658 986 213 </a> </li>
+                             <li> <i class="fa fa-envelope"></i> <a href="mailto:contact@sadaka.org">Ensa@gmail.com</a> </li>
                        </ul> <!-- /.header-contact  -->
                       
                     </div>
@@ -54,11 +54,12 @@
 
                         <ul class="list-unstyled list-inline header-social">
 
-                            <li> <a href="#"> <i class="fa fa-facebook"></i> </a> </li>
-                            <li> <a href="#"> <i class="fa fa-twitter"></i>  </a> </li>
-                            <li> <a href="#"> <i class="fa fa-google"></i>  </a> </li>
-                            <li> <a href="#"> <i class="fa fa-youtube"></i>  </a> </li>
-                            <li> <a href="#"> <i class="fa fa fa-pinterest-p"></i>  </a> </li>
+                            <li> <a href="#" target="_blank"> <i class="fa fa-facebook"></i> </a> </li>
+                            <li> <a href="#" target="_blank"> <i class="fa fa-twitter"></i>  </a> </li>
+                            <li> <a href="#" target="_blank"> <i class="fa fa-google"></i>  </a> </li>
+                            <li> <a href="#" target="_blank"> <i class="fa fa-youtube"></i>  </a> </li>
+                            <li> <a href="#" target="_blank"> <i class="fa fa fa-pinterest-p"></i>  </a> </li>
+
                        </ul> <!-- /.header-social  -->
                       
                     </div>
@@ -83,7 +84,7 @@
 
                   </button>
                   
-                  <a class="navbar-brand" href="index.html"><img src="assets/images/sadaka-logo.png" alt=""></a>
+                  <a class="navbar-brand" href="index.html"><img src="assets/images/rsz_ensalogo.jpg" alt=""></a>
                   
                 </div>
 
@@ -91,20 +92,11 @@
 
                   <ul class="nav navbar-nav">
 
-                    <li><a class="is-active" href="index.html">HOME</a></li>
-                    <li><a href="about.html">ABOUT</a></li>
-                    <li class="has-child"><a href="#">CAUSES</a>
-
-                      <ul class="submenu">
-                         <li class="submenu-item"><a href="causes.html">Causes list </a></li>
-                         <li class="submenu-item"><a href="causes-single.html">Single cause </a></li>
-                         <li class="submenu-item"><a href="causes-single.html">Single cause </a></li>
-                         <li class="submenu-item"><a href="causes-single.html">Single cause </a></li>
-                      </ul>
-
-                    </li>
-                    <li><a href="gallery.html">GALLERY</a></li>
-                    <li><a href="contact.html">CONTACT</a></li>
+                    <li><a href="index.jsp">HOME</a></li>
+                    <li><a href="about.jsp">ABOUT</a></li>
+                   
+                    <li><a href="gallery.jsp">GALLERY</a></li>
+                    <li><a class="is-active"  href="contact.jsp">CONTACT</a></li>
 
                   </ul>
 
@@ -126,11 +118,12 @@
 <ul>
 <h4><a href="profil">afficher mon profile</a></h4>
 <h4><a href="emploisTemps">Mon emplois de temps</a></h4>
-<h4><a href="mailBox">Boite de reception</a></h4>
+<h4><a href="mailBox.school">Boite de reception</a></h4>
 <h4><a href="showClasses.school">Mes niveaux</a></h4>
 <h4><a href="addStudent.jsp">Ajouter étudiant</a></h4>
+<h4><a href="addmodule.jsp">Ajouter Module</a></h4>
 </ul>
- <footer class="main-footer">
+<footer class="main-footer">
 
         <div class="footer-top">
             
@@ -150,11 +143,13 @@
                             <div class="footer-content">
 
                                 <p>
-                                    <strong>Sadaka</strong> ipsum dolor sit amet, consectetur adipiscing elit. Ut at eros rutrum turpis viverra elementum semper quis ex. Donec lorem nulla, aliquam quis neque vel, maximus lacinia urna.
+                                    <strong>ENSA</strong>  et une école d'ingénieurs publique. Elle forme des ingénieurs d'état dans les domaines du Génie Electrique, Inforamtique, Industriel et Logisique et Réseaux et Télécoms.
+L'ENSA délivre un diplôme d'ingénieur d'état certifiant un cursus de 5 ans.
+L'ENSA propose également des Masters en formation continue. 
                                 </p> 
 
                                 <p>
-                                    ILorem ipsum dolor sit amet, consectetur adipiscing elit. Ut at eros rutrum turpis viverra elementum semper quis ex. Donec lorem nulla, aliquam quis neque vel, maximus lacinia urna.
+                                   notre mission est de Former des ingénieurs d'état hautement qualifiés capables d'assumer des responsabilités et pousser à l'avant les entreprises d'accueil.
                                 </p>
 
                             </div>
@@ -173,19 +168,19 @@
                                 <ul class="tweets list-unstyled">
                                     <li class="tweet"> 
 
-                                        20 Surprise Eggs, Kinder Surprise Cars 2 Thomas Spongebob Disney Pixar  http://t.co/fTSazikPd4 
+                                        Bravo ENSA de marrakech vous êtes le meilleurs
 
                                     </li>
 
                                     <li class="tweet"> 
 
-                                        20 Surprise Eggs, Kinder Surprise Cars 2 Thomas Spongebob Disney Pixar  http://t.co/fTSazikPd4 
+                                        Bravo Yassine je t'encourage gros bisoux
 
                                     </li>
 
                                     <li class="tweet"> 
 
-                                        20 Surprise Eggs, Kinder Surprise Cars 2 Thomas Spongebob Disney Pixar  http://t.co/fTSazikPd4 
+                                        Nizar on ne te vois jamais à l'école
 
                                     </li>
 
@@ -264,7 +259,7 @@
         <div class="footer-bottom">
 
             <div class="container text-right">
-                Sadaka @ copyrights 2015 - by <a href="http://www.ouarmedia.com" target="_blank">Ouarmedia</a>
+                ENSA|MARRAKECH @ copyrights 2016 - by <a href="https://www.facebook.com/neo.thunder.1" target="_blank">Nizar</a> & <a href="https://www.facebook.com/yassine.abouelouafa.1"> Yassine</a>
             </div>
         </div>
         

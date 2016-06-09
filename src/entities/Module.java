@@ -23,8 +23,16 @@ public class Module implements Serializable {
 	private String specialiter;
 	private String departement_attache;
 	private int semestre_apartenance;
+	@ManyToOne
+	private Niveau niveau;
 	
 
+	public Niveau getNiveau() {
+		return niveau;
+	}
+	public void setNiveau(Niveau niveau) {
+		this.niveau = niveau;
+	}
 	public long getId() {
 		return id;
 	}

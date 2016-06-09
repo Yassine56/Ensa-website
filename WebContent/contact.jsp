@@ -2,7 +2,7 @@
 <html class="no-js">
     <head>
         <meta charset="utf-8">
-        <title>Gallery | Charity / Non-profit responsive Bootstrap HTML5 template</title>
+        <title>Contact | ENSA MARRAKECH / Non-profit responsive Bootstrap HTML5 template</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -13,12 +13,8 @@
         <!-- Bootsrap -->
         <link rel="stylesheet" href="assets/css/bootstrap.min.css">
 
-
         <!-- Font awesome -->
         <link rel="stylesheet" href="assets/css/font-awesome.min.css">
-
-        <!-- PrettyPhoto -->
-        <link rel="stylesheet" href="assets/css/prettyPhoto.css">
 
         <!-- Template main Css -->
         <link rel="stylesheet" href="assets/css/style.css">
@@ -46,7 +42,7 @@
 
                         <ul class="list-unstyled list-inline header-contact">
                             <li> <i class="fa fa-phone"></i> <a href="tel:">+212 658 986 213 </a> </li>
-                             <li> <i class="fa fa-envelope"></i> <a href="mailto:contact@sadaka.org">contact@sadaka.org</a> </li>
+                             <li> <i class="fa fa-envelope"></i> <a href="mailto:contact@sadaka.org">Ensa@gmail.com</a> </li>
                        </ul> <!-- /.header-contact  -->
                       
                     </div>
@@ -85,7 +81,7 @@
 
                   </button>
                   
-                  <a class="navbar-brand" href="index.html"><img src="assets/images/sadaka-logo.png" alt=""></a>
+                  <a class="navbar-brand" href="index.html"><img src="assets/images/rsz_ensalogo.jpg" alt=""></a>
                   
                 </div>
 
@@ -93,20 +89,11 @@
 
                   <ul class="nav navbar-nav">
 
-                    <li><a href="index.html">HOME</a></li>
-                    <li><a href="about.html">ABOUT</a></li>
-                    <li class="has-child"><a href="#">CAUSES</a>
-
-                      <ul class="submenu">
-                         <li class="submenu-item"><a href="causes.html">Causes list </a></li>
-                         <li class="submenu-item"><a href="causes-single.html">Single cause </a></li>
-                         <li class="submenu-item"><a href="causes-single.html">Single cause </a></li>
-                         <li class="submenu-item"><a href="causes-single.html">Single cause </a></li>
-                      </ul>
-
-                    </li>
-                    <li><a class="is-active" href="gallery.html">GALLERY</a></li>
-                    <li><a href="contact.html">CONTACT</a></li>
+                    <li><a href="index.jsp">HOME</a></li>
+                    <li><a href="about.jsp">ABOUT</a></li>
+                   
+                    <li><a href="gallery.jsp">GALLERY</a></li>
+                    <li><a class="is-active"  href="contact.jsp">CONTACT</a></li>
 
                   </ul>
 
@@ -126,157 +113,101 @@
 
 		<div class="container zoomIn animated">
 			
-			<h1 class="page-title">GALLERY <span class="title-under"></span></h1>
+			<h1 class="page-title">CONTACT US <span class="title-under"></span></h1>
 			<p class="page-description">
-				Lorem ipsum dolor sit amet, consectetur adipisicing elit Necessitatibus.
+				Pour plus d'information, n'hesitez pas à nous contacter
 			</p>
 			
 		</div>
 
 	</div>
 
-	<div class="main-container">
+	<div class="main-container fadeIn animated">
 
-		<div class="container gallery fadeIn animated">
+		<div class="container">
 
 			<div class="row">
-				
 
-					<a href="assets/images/gallery/7610291856_931fb9f461_k.jpg" class="col-md-3 col-sm-4 gallery-item lightbox">
+				<div class="col-md-7 col-sm-12 col-form">
 
-						<img src="assets/images/gallery/thumb/7610291856_931fb9f461_k.jpg" alt="">
+					<h2 class="title-style-2">CONTACT FORM <span class="title-under"></span></h2>
 
-						<span class="on-hover">
-							<span class="hover-caption">Image Caption</span>
-						</span>
+					<form action="php/mail.php" class="contact-form ajax-form">
 
-					</a> <!-- /.gallery-item -->
+						<div class="row">
 
-					<a href="assets/images/gallery/children-82272_1280.jpg" class="col-md-3 col-sm-4 gallery-item lightbox">
+							<div class="form-group col-md-6">
+	                            <input type="text" name="name" class="form-control" placeholder="Name*" required>
+	                        </div>
 
-						<img src="assets/images/gallery/thumb/children-82272_1280.jpg" alt="">
-						
-						<span class="on-hover">
-							<span class="hover-caption">Image Caption</span>
-						</span>
-						
-					</a> <!-- /.gallery-item -->
+	                         <div class="form-group col-md-6">
+	                            <input type="email" name="email" class="form-control" placeholder="E-mail*" required>
+	                        </div>
+							
+						</div>
 
+                        <div class="form-group">
+                            <textarea name="message" rows="5" class="form-control" placeholder="Message*" required></textarea>
+                        </div>
 
-					<a href="assets/images/gallery/human-rights.jpg" class="col-md-3 col-sm-4 gallery-item lightbox">
+                        <div class="form-group alerts">
+                        
+                        	<div class="alert alert-success" role="alert">
+							  
+							</div>
 
-						<img src="assets/images/gallery/thumb/human-rights.jpg" alt="">
-						
-						<span class="on-hover">
-							<span class="hover-caption">Image Caption</span>
-						</span>
-						
-					</a> <!-- /.gallery-item -->
+							<div class="alert alert-danger" role="alert">
+							  
+							</div>
+							
+                        </div>	
 
+                         <div class="form-group">
+                            <button type="submit" class="btn btn-primary pull-right">Send message</button>
+                        </div>
 
-					<a href="assets/images/gallery/old-books-436498_1280.jpg" class="col-md-3 col-sm-4 gallery-item lightbox">
+                        <div class="clearfix"></div>
 
-						<img src="assets/images/gallery/thumb/old-books-436498_1280.jpg" alt="">
-						
-						<span class="on-hover">
-							<span class="hover-caption">Image Caption</span>
-						</span>
-						
-					</a> <!-- /.gallery-item -->
+					</form>
 
-					<a href="assets/images/gallery/hunger-682834_1280.jpg" class="col-md-3 col-sm-4 gallery-item lightbox">
+				</div>
 
-						<img src="assets/images/gallery/thumb/hunger-682834_1280.jpg" alt="">
-						
-						<span class="on-hover">
-							<span class="hover-caption">Image Caption</span>
-						</span>
-						
-					</a> <!-- /.gallery-item -->
+				<div class="col-md-4 col-md-offset-1 col-contact">
 
-					<a href="assets/images/gallery/africa-education.jpg" class="col-md-3 col-sm-4 gallery-item lightbox">
+					<h2 class="title-style-2"> ENSA MARRAKECH CONTACT <span class="title-under"></span></h2>
+					<p>
+						<b>ENSA</b> se situe a marrakech dans une région estudiantine, prés de nombreuse facultées.
+					</p>
 
-						<img src="assets/images/gallery/thumb/africa-education.jpg" alt="">
-						
-						<span class="on-hover">
-							<span class="hover-caption">Image Caption</span>
-						</span>
-						
-					</a> <!-- /.gallery-item -->
+					<div class="contact-items">
 
+						<ul class="list-unstyled contact-items-list">
+							<li class="contact-item"> <span class="contact-icon"> <i class="fa fa-map-marker"></i></span> Avenu Abdelkrim alkhatabi, MARRAKECH, Morocco</li>
+							<li class="contact-item"> <span class="contact-icon"> <i class="fa fa-phone"></i></span> 212 524 31 92 98</li>
 
-					<a href="assets/images/gallery/afghani-60798_1280.jpg" class="col-md-3 col-sm-4 gallery-item lightbox">
+							<li class="contact-item"> <span class="contact-icon"> <i class="fa fa-envelope"></i></span> Ensa@uca.edu.ma</li>
+						</ul>
+					</div>
 
-						<img src="assets/images/gallery/thumb/afghani-60798_1280.jpg" alt="">
-
-						<span class="on-hover">
-							<span class="hover-caption">Image Caption</span>
-						</span>
-
-					</a> <!-- /.gallery-item -->
-
-					<a href="assets/images/gallery/boy-60729_1280.jpg" class="col-md-3 col-sm-4 gallery-item lightbox">
-
-						<img src="assets/images/gallery/thumb/boy-60729_1280.jpg" alt="">
-						
-						<span class="on-hover">
-							<span class="hover-caption">Image Caption</span>
-						</span>
-						
-					</a> <!-- /.gallery-item -->
-
-
-					<a href="assets/images/gallery/child-207573_1280.jpg" class="col-md-3 col-sm-4 gallery-item lightbox">
-
-						<img src="assets/images/gallery/thumb/child-207573_1280.jpg" alt="">
-						
-						<span class="on-hover">
-							<span class="hover-caption">Image Caption</span>
-						</span>
-						
-					</a> <!-- /.gallery-item -->
-
-
-					<a href="assets/images/gallery/children-60654_1280.jpg" class="col-md-3 col-sm-4 gallery-item lightbox">
-
-						<img src="assets/images/gallery/thumb/children-60654_1280.jpg" alt="">
-						
-						<span class="on-hover">
-							<span class="hover-caption">Image Caption</span>
-						</span>
-						
-					</a> <!-- /.gallery-item -->
-
-					<a href="assets/images/gallery/doll-87407_1280.jpg" class="col-md-3 col-sm-4 gallery-item lightbox">
-
-						<img src="assets/images/gallery/thumb/doll-87407_1280.jpg" alt="">
-						
-						<span class="on-hover">
-							<span class="hover-caption">Image Caption</span>
-						</span>
-						
-					</a> <!-- /.gallery-item -->
-
-					<a href="assets/images/gallery/girl-62328_1280.jpg" class="col-md-3 col-sm-4 gallery-item lightbox">
-
-						<img src="assets/images/gallery/thumb/girl-62328_1280.jpg" alt="">
-						
-						<span class="on-hover">
-							<span class="hover-caption">Image Caption</span>
-						</span>
-						
-					</a> <!-- /.gallery-item -->
 					
-				
-			</div>
-			
+					
+				</div>
+
+			</div> <!-- /.row -->
+
+
 		</div>
+		
 
 
-	</div> <!-- /.main-container  -->
+	</div>
+
+	<div id="contact-map" class="contact-map">
+		
+	</div>
 
 
-    <footer class="main-footer">
+<footer class="main-footer">
 
         <div class="footer-top">
             
@@ -294,12 +225,15 @@
                             <h4 class="footer-title">About us <span class="title-under"></span></h4>
 
                             <div class="footer-content">
+
                                 <p>
-                                    <strong>Sadaka</strong> ipsum dolor sit amet, consectetur adipiscing elit. Ut at eros rutrum turpis viverra elementum semper quis ex. Donec lorem nulla, aliquam quis neque vel, maximus lacinia urna.
+                                    <strong>ENSA</strong>  et une école d'ingénieurs publique. Elle forme des ingénieurs d'état dans les domaines du Génie Electrique, Inforamtique, Industriel et Logisique et Réseaux et Télécoms.
+L'ENSA délivre un diplôme d'ingénieur d'état certifiant un cursus de 5 ans.
+L'ENSA propose également des Masters en formation continue. 
                                 </p> 
 
                                 <p>
-                                    ILorem ipsum dolor sit amet, consectetur adipiscing elit. Ut at eros rutrum turpis viverra elementum semper quis ex. Donec lorem nulla, aliquam quis neque vel, maximus lacinia urna.
+                                   notre mission est de Former des ingénieurs d'état hautement qualifiés capables d'assumer des responsabilités et pousser à l'avant les entreprises d'accueil.
                                 </p>
 
                             </div>
@@ -318,19 +252,19 @@
                                 <ul class="tweets list-unstyled">
                                     <li class="tweet"> 
 
-                                        20 Surprise Eggs, Kinder Surprise Cars 2 Thomas Spongebob Disney Pixar  http://t.co/fTSazikPd4 
+                                        Bravo ENSA de marrakech vous êtes le meilleurs
 
                                     </li>
 
                                     <li class="tweet"> 
 
-                                        20 Surprise Eggs, Kinder Surprise Cars 2 Thomas Spongebob Disney Pixar  http://t.co/fTSazikPd4 
+                                        Bravo Yassine je t'encourage gros bisoux
 
                                     </li>
 
                                     <li class="tweet"> 
 
-                                        20 Surprise Eggs, Kinder Surprise Cars 2 Thomas Spongebob Disney Pixar  http://t.co/fTSazikPd4 
+                                        Nizar on ne te vois jamais à l'école
 
                                     </li>
 
@@ -350,7 +284,9 @@
 
                             <div class="footer-content">
 
-                                <div class="footer-form" >
+                                <div class="footer-form">
+                                    
+                                    <div class="footer-form" >
                                     
                                     <form action="php/mail.php" class="ajax-form">
 
@@ -385,6 +321,8 @@
                                     </form>
 
                                 </div>
+
+                                </div>
                             </div>
                             
                         </div>
@@ -405,11 +343,11 @@
         <div class="footer-bottom">
 
             <div class="container text-right">
-                Sadaka @ copyrights 2015 - by <a href="http://www.ouarmedia.com" target="_blank">Ouarmedia</a>
+                ENSA|MARRAKECH @ copyrights 2016 - by <a href="https://www.facebook.com/neo.thunder.1" target="_blank">Nizar</a> & <a href="https://www.facebook.com/yassine.abouelouafa.1"> Yassine</a>
             </div>
         </div>
         
-    </footer>
+    </footer> <!-- main-footer -->
 
 
 
@@ -423,8 +361,10 @@
         <!-- Bootsrap javascript file -->
         <script src="assets/js/bootstrap.min.js"></script>
 
-        <!-- PrettyPhoto javascript file -->
-        <script src="assets/js/jquery.prettyPhoto.js"></script>
+
+        <!-- Google map  -->
+        <script src="http://maps.google.com/maps/api/js?sensor=false&amp;libraries=places" type="text/javascript"></script>
+
 
         <!-- Template main javascript -->
         <script src="assets/js/main.js"></script>

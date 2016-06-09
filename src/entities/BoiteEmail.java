@@ -8,8 +8,10 @@ import javax.persistence.Column;
 import javax.persistence.Embeddable;
 import javax.persistence.Embedded;
 import javax.persistence.OneToMany;
+import javax.persistence.OneToOne;
 @Embeddable
 public class BoiteEmail implements Serializable{
+	
 	@OneToMany
 	List<Message> messagesEmis;
 	@AttributeOverride(name = "emis", column =@Column(name="recu"))

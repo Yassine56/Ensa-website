@@ -14,7 +14,7 @@ public class Niveau implements Serializable {
 	private String nom; //CP1 - CP2 - CI1 - CI2 - CI3  
 	@ManyToOne
 	private Filiere filiere; // GI - GRT - GIL - GE - TC
-	@OneToMany
+	@OneToMany(mappedBy="niveau")
 	private List<Module> modules;
 	private float noteS1;
 	private float noteS2;
